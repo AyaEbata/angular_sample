@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<title>AngularJS_sample</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	</head>
+	<body>
+ 		<div>
+  			<p><input type="text" ng-model="item" /></p>
+  			<p>{{(item == null || item == "") ? "何かいれてね":item}}</p>
+ 		</div>
+	</body>
+</html>
